@@ -4,9 +4,7 @@ let getButton = document.getElementById("getRequest")
 let postButton = document.getElementById("postRequest")
 
 // set API url
-//let url = "http://localhost:3000";
-let url = "http://192.168.2.106:3000";
-
+let url = "http://localhost:3000";
 
 // fetch Get request
 function sendGetRequest() {
