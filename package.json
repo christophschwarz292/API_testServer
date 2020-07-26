@@ -1,0 +1,21 @@
+{
+  "name": "cors-api2",
+  "description": "Get/Post API node.js sample",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Christoph Schwarz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christophschwarz292/API_testServer.git"
+  },
+  
+  "scripts": {
+    "start": "cors-api2.js"
+  },
+  
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
