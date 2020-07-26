@@ -2,7 +2,6 @@
   "name": "cors-api2",
   "description": "Get/Post API node.js sample",
   "version": "0.0.1",
-  "private": true,
   "license": "MIT",
   "author": "Christoph Schwarz",
   "repository": {
@@ -11,7 +10,7 @@
   },
   
   "scripts": {
-    "start": "cors-api2.js"
+    "start": "node cors-api2.js"
   },
   
   "dependencies": {
