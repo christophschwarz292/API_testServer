@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+const listener = 8080;
 
 // NEW - Add CORS headers - see https://enable-cors.org/server_expressjs.html
 app.use(function(req, res, next) {
@@ -27,7 +28,7 @@ app.post('/', function(req, res){
 
 
 //listen to port;
-const server = app.listen(process.env.port || 3000, () => {
+const server = app.listen(process.env.port || listener, () => {
    const host = server.address();
    const port = server.address().port;
 
